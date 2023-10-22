@@ -9,10 +9,10 @@ function InputForm({ onCalculate }) {
   };
 
   return (
-    <div>
+    <div className="container">
       <form onSubmit={handleSubmit}>
-        <label>
-          Ingrese el valor de n:
+        <label className="form-group">
+          Ingrese un valor para n:
           <input type="number" value={n} onChange={(e) => setN(e.target.value)} />
         </label>
         <button type="submit">Calcular</button>
