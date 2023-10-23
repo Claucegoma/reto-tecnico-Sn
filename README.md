@@ -1,18 +1,19 @@
-# reto-tecnico-Sn
-
-## Technical challenge for an awesome place to work with
+# Reto técnico para mi próximo trabajo en un lugar increíble
 
 ## Objetivos de aprendizaje
-Comprender las series matemáticas
+Comprender las series matemáticas:  
+
 -Números triangulares
 -Números primos
 -Sucesión Fibonacci
 
 ## Indicaciones
-Desarrollar una clase con un método que entregue el término n de la serie:
+Desarrollar una clase con un método que entregue el término n de la serie:  
+
 serie (n)=2triangular(n+1)-2primo(n)+fibonacci(n+1)
 
-## comando para pruebas unitarias :
+## Comando para pruebas unitarias :
+
   node --experimental-vm-modules node_modules/jest/bin/jest.js
 
 ## Interfaz de usuario
