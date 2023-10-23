@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="mainContainer">
       <h1>Calculadora de:</h1>
-      <h3> Serie(n) = Triangular (n+1) - 2Primo(n) + fibonacci(n+1)</h3>
+      <h3> Serie(n) = Triangular(n+1) - 2Primo(n) + Fibonacci(n+1)</h3>
       <InputForm onCalculate={handleCalculate} />
       {resultado !== null && <Result resultado={resultado} />}
     </div>

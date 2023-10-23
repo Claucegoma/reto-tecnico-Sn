@@ -1,4 +1,3 @@
-// src/Calculator.js
 class Calculator {
     static triangular(n) {
       return (n * (n + 1)) / 2;
